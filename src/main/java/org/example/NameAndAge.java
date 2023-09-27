@@ -14,12 +14,10 @@ import com.google.gson.GsonBuilder;
 
 public class NameAndAge {
 
-    String filePath = "C:\\Program Files (x86)\\forTask10\\Names and ages\\file.txt";
-
 
     public static void usersList(String filePath) {
 
-        List<User> users = new ArrayList<User>();
+        List<User> users = new ArrayList<>();
         Gson gson = new Gson();
 
         Pattern namePattern = Pattern.compile("\\b(?!(Name|Age)\\b)[a-zA-Z]+\\b", Pattern.CASE_INSENSITIVE);

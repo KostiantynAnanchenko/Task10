@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Main {
 
@@ -17,7 +15,7 @@ public class Main {
         NameAndAge.usersList("C:\\Program Files (x86)\\forTask10\\Names and ages\\file.txt");
 
 
-        System.out.println("--- Task 10.2 Test ---");
+        System.out.println("--- Task 10.3 Test ---");
 
     }
 }
