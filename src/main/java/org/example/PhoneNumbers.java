@@ -9,16 +9,16 @@ import java.util.regex.Pattern;
 public class PhoneNumbers {
 
 
-    public static void validatePhoneNumbers(String filePath){
+    public static void validatePhoneNumbers(String filePath) {
         Pattern phonePattern = Pattern.compile("(\\(\\d{3}\\) \\d{3}-\\d{4}|\\d{3}-\\d{3}-\\d{4})");
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
-            while((line = reader.readLine())!=null){
+            while ((line = reader.readLine()) != null) {
                 Matcher matcher = phonePattern.matcher(line);
-                if(matcher.find()){
+                if (matcher.find()) {
 
-                System.out.println(matcher.group());
+                    System.out.println(matcher.group());
                 }
             }
 
