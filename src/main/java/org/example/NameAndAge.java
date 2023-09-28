@@ -42,7 +42,7 @@ public class NameAndAge {
         String json = gson.toJson(users);
         System.out.println(json);
 
-        try (FileWriter writer = new FileWriter("C:\\Program Files (x86)\\forTask10\\Names and ages\\user.json")) {
+        try (FileWriter writer = new FileWriter("user.json")) {
 
             writer.write(json);
         } catch (IOException e) {

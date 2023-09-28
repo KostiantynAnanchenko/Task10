@@ -10,12 +10,16 @@ public class Main {
         PhoneNumbers.validatePhoneNumbers("C:\\Program Files (x86)\\forTask10\\file.txt");
 
 
+
         System.out.println("--- Task 10.2 Test ---");
 
         NameAndAge.usersList("C:\\Program Files (x86)\\forTask10\\Names and ages\\file.txt");
 
 
+
         System.out.println("--- Task 10.3 Test ---");
+
+       WordFrequency.wordCounter( "C:\\Program Files (x86)\\forTask10\\words.txt");
 
     }
 }
