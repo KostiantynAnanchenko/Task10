@@ -7,19 +7,18 @@ public class Main {
 
         System.out.println("--- Task 10.1 Test ---");
 
-        PhoneNumbers.validatePhoneNumbers("C:\\Program Files (x86)\\forTask10\\file.txt");
-
+        PhoneNumbers.validatePhoneNumbers("src/main/resources/file.txt");
 
 
         System.out.println("--- Task 10.2 Test ---");
 
-        NameAndAge.usersList("C:\\Program Files (x86)\\forTask10\\Names and ages\\file.txt");
+        NameAndAge.usersList("src/main/resources/Names and ages/file.txt");
 
 
 
         System.out.println("--- Task 10.3 Test ---");
 
-       WordFrequency.wordCounter( "C:\\Program Files (x86)\\forTask10\\words.txt");
+       WordFrequency.wordCounter( "src/main/resources/words.txt");
 
     }
 }
